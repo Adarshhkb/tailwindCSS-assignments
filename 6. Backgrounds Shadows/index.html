@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Backgrounds & Shadows</title>
+  </head>
+  <body>
+    1.Background Images
+    <!-- https://tailwindcss.com/docs/background-image -->
+     <div class="container bg-black p-7">
+      <div class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+      <div class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500"></div>
+      <div class="h-14 bg-gradient-to-r from-violet-500 to-fuchsia-500"></div>
+      <div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+     </div>
+
+    2.Shadows
+    <!-- https://tailwindcss.com/docs/drop-shadow -->
+    <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
+     <div class="container bg-black p-7 flex item-end gap-6">
+      <div class="shadow-md h-15 w-20 shadow-red-500 text-red-500 mt-6">
+        drop-shadow-md
+        <!-- ... -->
+      </div>
+      <div class="shadow-lg h-15 w-20 shadow-red-500 text-red-500 mt-6">
+        drop-shadow-lg
+        <!-- ... -->
+      </div>
+      <div class="shadow-xl h-15 w-20 shadow-red-500 text-red-500 mt-6">
+        drop-shadow-xl
+        <!-- ... -->
+      </div>
+      <div class="shadow-2xl h-15 w-20 shadow-red-500 text-red-500 mt-6">
+        drop-shadow-2xl
+        <!-- ... -->
+      </div>
+     </div>
+
+    3.Gradients
+    <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+     <div class="container bg-black p-7">
+      <div class="bg-gradient-to-r from-blue-500 to-cyan-500 text-transparent py-3">1</div>
+      <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent py-3">2</div>
+      
+  </body>
+</html>
