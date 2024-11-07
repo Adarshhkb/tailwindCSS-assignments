@@ -8,15 +8,36 @@
     <title>TailwindCSS</title>
   </head>
   <body class="p-20">
+    <h1 class="font-bold text-center underline">Layout Position Static,Absolute,Fixed,Sticky</h1>
+    <div class="flex justify-around">
     <!-- https://tailwindcss.com/docs/position -->
-     <div class="container bg-blue-600 p-7">
-      <div class="static">
+     <div class="container bg-lime-400 w-[200px] h-24">
+      <div class="relative bg-blue-500 p-2 w-full h-full">
         <p>static parent</p>
-        <div class="absolute bottom-0 left-0">
+        <div class="absolute bottom-2 right-0 bg-black ">
           <p>absolute child</p>
         </div>
       </div>
      </div>
+     
     <!-- https://tailwindcss.com/docs/display -->
+     <!-- fixed -->
+
+     <div class=" bg-pink-300 w-[400px] h-96 overflow-y-auto ">
+      
+        <div class="w-10 h-10 bg-green-500 fixed">1</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione debitis veritatis similique. Fugiat, in! Architecto vel nesciunt mollitia, animi error qui eius corrupti eaque blanditiis id nostrum dolor dignissimos, nemo reprehenderit quo eos doloribus aspernatur beatae libero repellat suscipit, delectus illo aut quasi. Dolore repellendus ipsum iusto nostrum? Fugiat autem ratione amet quae et totam dicta similique explicabo velit accusamus iusto, officiis doloribus laborum iste eligendi dolore laudantium ab optio laboriosam eaque deserunt, aperiam eius culpa. Assumenda quam ullam velit beatae architecto! Maxime tempore nobis ipsum quibusdam blanditiis impedit inventore reiciendis assumenda possimus numquam, dolor eos quaerat, repellat incidunt? Sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis soluta consequatur quaerat rem accusamus nemo sunt placeat inventore iusto atque totam optio natus quia, tempora distinctio pariatur impedit excepturi in dolore nesciunt dolorum quasi. Ipsam, in eligendi. Dolor explicabo, vel quasi nam quam et nesciunt quaerat ex accusamus aliquam esse maxime laudantium placeat, quibusdam soluta accusantium atque. Earum impedit unde incidunt deserunt quas repellat recusandae quisquam fuga, odit laborum ipsam pariatur molestiae autem fugit molestias repudiandae expedita! Voluptatum corporis laboriosam, esse vero doloremque aspernatur facere dicta perspiciatis quos dolor odio atque. Nisi distinctio expedita quasi dicta culpa repellendus? Nulla?</p>
+     </div>
+
+     <!-- sticky -->
+     <div class=" bg-pink-300 w-[400px] h-96 overflow-y-auto  ">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione debitis veritatis similique. Fugiat, in! Architecto vel nesciunt mollitia, animi error qui eius corrupti eaque blanditiis id nostrum dolor dignissimos, nemo reprehenderit quo eos .</p>
+      
+      <div class="w-10 h-10 bg-green-500 sticky top-6">1</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione debitis veritatis similique. Fugiat, in! Architecto vel nesciunt mollitia, animi error qui eius corrupti eaque blanditiis id nostrum dolor dignissimos, nemo reprehenderit quo eos doloribus aspernatur beatae libero repellat suscipit, delectus illo aut quasi. Dolore repellendus ipsum iusto nostrum? Fugiat autem ratione amet quae et totam dicta similique explicabo velit accusamus iusto, officiis doloribus laborum iste eligendi dolore laudantium ab optio laboriosam eaque deserunt, aperiam eius culpa. Assumenda quam ullam velit beatae architecto! Maxime tempore nobis ipsum quibusdam blanditiis impedit inventore reiciendis assumenda possimus numquam, dolor eos quaerat, repellat incidunt? Sapiente.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis soluta consequatur quaerat rem accusamus nemo sunt placeat inventore iusto atque totam optio natus quia, tempora distinctio pariatur impedit excepturi in dolore nesciunt dolorum quasi. Ipsam, in eligendi. Dolor explicabo, vel quasi nam quam et nesciunt quaerat ex accusamus aliquam esse maxime laudantium placeat, quibusdam soluta accusantium atque. Earum impedit unde incidunt deserunt quas repellat recusandae quisquam fuga, odit laborum ipsam pariatur molestiae autem fugit molestias repudiandae expedita! Voluptatum corporis laboriosam, esse vero doloremque aspernatur facere dicta perspiciatis quos dolor odio atque. Nisi distinctio expedita quasi dicta culpa repellendus? Nulla?</p>
+   </div>
+  </div>
   </body>
 </html>
